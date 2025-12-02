@@ -1,0 +1,288 @@
+@charset "utf-8";
+/* Esyilos de la pagina */
+
+html, body {
+    margin: auto;
+    padding: 0px;
+    max-width: 1200px;
+    background-size: 100%;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    color: black;
+    line-height: 22px;
+}
+
+/* Estilos del encabezads */
+
+h1 {
+    font-size: 32px;
+	text-align: left;
+}
+
+h2 {
+	font-size: 32px;
+	text-align: center;
+}
+
+h1,h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Modificación del comportamiento de los párrafos */
+
+p {
+	text-align: justify;
+}
+
+/*Página principal*/
+
+#head_img img {
+	width:1200px;
+	height:auto;
+	border: 1px solid rgb(255, 255, 255);
+	margin: 0;
+	text-align: center;
+	border-color:transparent;
+	clear:both;
+	position:relative;
+}
+
+#item1 { 
+	grid-area: left;
+}
+
+#item2 { 
+	grid-area: right;
+}
+
+#item3 { 
+	grid-area: botom;
+}
+
+#item4 {
+	grid-area: top;
+}
+
+#section_principal {
+	display: grid;
+	grid: 
+		'left right'
+		'left right'
+		'top top'
+		'botom botom';
+	grid-gap: 40px;
+	width: auto;
+	height: auto;
+	border: 1px solid rgb(37, 247, 89);
+	padding: 0 20px 10px 20px;
+	margin: 10px 0;
+}
+
+.image_main {
+	text-align: center;
+	margin: auto;
+}
+
+.image_main img {
+	width: 550px;
+	height: auto;
+}
+
+.ver_mas {
+	font-size: 22px;
+}
+
+.ver_mas:hover {
+	font-size: 24px;
+	color: #457537;
+}
+
+/*Estilos que contiene la página*/
+
+.section {
+	height:auto;
+	border: 1px solid rgb(37, 247, 89);
+	margin: 10px 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+/* Estilos del menú de la página */
+
+
+/* Estilos comunes de los botones de navegación */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #6ab928;
+}
+  
+li {
+	float: left;
+}
+  
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 25px;
+	text-decoration: none;
+	font-size: 28px;
+}
+  
+li a:hover:not(.active) {
+	background-color: #457537;
+}
+  
+.active {
+	background-color: #00ff0d;
+}
+
+/* Estilo de imágenes */
+
+.image_right {
+	float:right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.image_right img {
+	width: 500px;
+	height: auto;
+}
+
+.image_left {
+	float:left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+.image_left img {
+	width: 500px;
+	height: auto;
+}
+
+.image_long {
+	position: relative;
+	margin: auto;
+	text-align: center;
+}
+
+.image_long img {
+	width: 1150px;
+	height: auto;
+}
+
+/*Estilo de pie de la pagina */
+
+#footer {
+	border: 1px solid rgb(37, 247, 89); 
+	font-size:16px;
+	position:relative;
+	box-sizing:border-box;
+	clear:both;
+	color: black;
+	text-align:center;
+	padding: 10px;
+	margin: 10px 0;
+}
+
+.logo_sm {
+	width: 20px;
+	height: 20px;
+	margin: 0px 5px;
+}
+
+/* Estilo de imagenes de galería */
+
+#gallery {
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px 200px;
+	grid-template-rows: 200px 200px;
+	gap: 10px;
+	margin: auto;
+	padding: 5px;
+	justify-content: center;
+  	align-content: center;
+}
+   
+#gallery img {
+	width: 200px;
+	height: auto;
+	cursor: pointer;
+	margin: auto;
+}
+
+/*  Estilo de presupuesto */
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: 0 auto;
+}
+   
+label {
+	font-weight: bold;
+	margin-top: 10px;
+}
+   
+input {
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	resize: none;
+}
+
+textarea {
+	padding: 5px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+	resize: none;
+}
+   
+button {
+	margin-top: 10px;
+	padding: 5px 10px;
+	background-color: #6ac64e94;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+/* Estilos de contacto */
+
+#contact {
+	font-family: 'Playfair Display', serif;;
+	color:rgb(0, 0, 0);
+	text-shadow: none;
+	text-decoration: none;
+	height:auto;
+	border: 1px solid rgb(37, 247, 89);
+	margin-left:5px;
+	margin: 10px 0;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#contact_table {
+	margin: auto;
+}
+
+tr, td {
+	border: 1px solid #6ac64e94;
+	text-align: left;
+    padding: 10px;
+    border-collapse: collapse;
+	font-size: 24px;
+}
+
+tr:hover {
+	background-color: #6ac64e94;
+}
