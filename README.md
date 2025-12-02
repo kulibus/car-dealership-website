@@ -27,8 +27,7 @@ car-dealership-website/
 ├── css/ # Estilos principales
 │ ├── styles.css
 ├── images/ # Iconos y logos
-│ ├── Galeria/ # Imágenes del proyecto 
-│ └── screenshots/ # Capturas para el README
+│ ├── Galeria/ # Imágenes del proyecto
 ├── Views/ # Páginas adicionales
 │ ├── contacto.html
 │ ├── galeria.html
