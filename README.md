@@ -4,7 +4,7 @@ Proyecto educativo de desarrollo front-end: un sitio web completo para un conces
 
 ## 🚀 Demo en vivo
 
-[👉 Ver sitio en GitHub Pages](https://kulibus.github.io/car-dealership-website/)
+[👉 Ver sitio en GitHub Pages](https://kulibus.github.io/car-dealership-website)
 
 ## 🎨 Características principales
 
