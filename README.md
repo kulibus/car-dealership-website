@@ -37,3 +37,10 @@ car-dealership-website/
 ├── index.html # Página principal  
 └── README.md # Este archivo  
 
+📦 Cómo ejecutar localmente
+
+Este es un proyecto estático (HTML + CSS). Para verlo localmente:
+
+1. Descarga o clona el repositorio:
+```bash
+git clone https://github.com/tu-usuario/nombre-del-repositorio.git
