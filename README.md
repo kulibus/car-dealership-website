@@ -23,17 +23,17 @@ Proyecto educativo de desarrollo front-end: un sitio web completo para un conces
 
 ## 📁 Estructura del proyecto
 
-car-dealership-website/
-├── css/ # Estilos principales
-│ ├── styles.css
-├── images/ # Iconos y logos
-│ ├── Galeria/ # Imágenes del proyecto
-├── Views/ # Páginas adicionales
-│ ├── contacto.html
-│ ├── galeria.html
-│ ├── presupuesto.html
-│ ├── taller.html
-│ └── tienda.html
-├── index.html # Página principal
-└── README.md # Este archivo
+car-dealership-website/ 
+├── css/ # Estilos principales 
+│ ├── styles.css 
+├── images/ # Iconos y logos 
+│ ├── Galeria/ # Imágenes del proyecto 
+├── Views/ # Páginas adicionales 
+│ ├── contacto.html 
+│ ├── galeria.html 
+│ ├── presupuesto.html 
+│ ├── taller.html 
+│ └── tienda.html 
+├── index.html # Página principal 
+└── README.md # Este archivo 
 
